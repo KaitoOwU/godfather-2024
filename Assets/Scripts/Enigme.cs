@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class Enigme : MonoBehaviour
 {
-    public enum FuseType{RED = 1, BLUE = 2, YELLOW = 3,WHITE = 4}
-    
+    public enum FuseType
+    {
+        RED,
+        BLUE,
+        YELLOW,
+        WHITE
+    }
+
     public int code;
+    public string hint;
     public FuseType fuseType;
     public bool isComplete;
 

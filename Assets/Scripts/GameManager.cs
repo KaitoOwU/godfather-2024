@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -14,10 +15,19 @@ public class GameManager : MonoBehaviour
     public FuseStates fuses;
     public EnigmeLayout layout;
 
+    private float _timer = 15 * 60 + 1;
+    [SerializeField] private TMP_Text _timerText;
+
     private void Awake()
     {
         Instance = this;
         StartCoroutine(GameLoop());
+    }
+
+    private void Update()
+    {
+        _timer -= Time.deltaTime;
+        _timerText.text = TimeSpan.FromSeconds(_timer).ToString("mm':'ss");
     }
 
     public IEnumerator GameLoop()

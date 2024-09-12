@@ -18,7 +18,7 @@ public class FuseStates : MonoBehaviour
 
         if (fuse.All(x => x.text == "<color=green>V"))
         {
-            title.text = "FUSIBLES DÉCONNECTÉS";
+            title.text = "<size=60>VEUILLEZ RECONNECTER LES FUSIBLES AU GÉNÉRATEUR";
         }
     }
     
