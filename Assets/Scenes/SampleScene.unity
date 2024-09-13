@@ -733,7 +733,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1228663635514934909, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: hint
-      value: "\xC9clairer les trous"
+      value: "Une lumi\xE8re bien align\xE9e pourra tout r\xE9veler.."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228663635514934909, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
+      propertyPath: fuseType
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1863660991256179674, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: m_SizeDelta.x
@@ -801,7 +805,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3401542468583892506, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: hint
-      value: "D\xE9luge de lettres"
+      value: "Les couleurs vous r\xE9v\xE8leront l'emplacement des 3 objets."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401542468583892506, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
+      propertyPath: fuseType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4297363383322584141, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -813,7 +821,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4687310758672453490, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: hint
-      value: "\xC9clatez-le !"
+      value: "Un gros bruit vous offrira la cl\xE9 du coffre."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687310758672453490, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
+      propertyPath: fuseType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5202303931724231242, guid: 6fdaf80f7a8300b48a685e7b233d67e1, type: 3}
       propertyPath: m_Name
